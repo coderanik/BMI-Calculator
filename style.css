@@ -82,7 +82,7 @@ h1{
     font-weight: 500;
     font-style: normal;
 }
-@media(max-width: 410px){
+@media(max-width: 420px){
     body, html {
         height: 100%;
         margin: 0;
