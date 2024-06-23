@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/logo.png">
+    <title>BMI Index</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Imprima&family=Kanit:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg">
+    <div class="container">   
+    <div class="box">
+        <h1 >Know Your BMI</h1>
+            <div class="inputBox">
+                <label for="height"><h3 class="text " style="margin-top: 32px;color: #25234D;">Enter Your Height :</h3></label>
+                <input type="number" id="heightFeet" name="height" class="heightBox" ><label > Ft , </label>
+                <input type="number" id="heightInches" name="height" class="heightBox" ><label > Inch </label>
+                <label for="weight"><h3 class="text" style="color: #25234D;">Enter Your Weight :</h3></label>
+                <input type="number" id="weight" name="Weight" class="inputText" style="width: 160px;"><label > Kg </label><br><br><br>
+            </div>
+        <button class="button button5" onclick="calculateBMI()">Check BMI</button>
+        <h4 id="output" class="modify" style=" color: red;font-style: italic;"></h4>
+        <p id="condition" class="modify" style="font-size: 17px;"></p>
+    </div>
+</div> 
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
